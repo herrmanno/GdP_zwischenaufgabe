@@ -1,0 +1,3 @@
+Test:
+`./main src/main.cpp -o main.cpp.out`
+`cmp --silent test.out main.cpp.out && echo "Test succeeded" || echo "Test failed"`

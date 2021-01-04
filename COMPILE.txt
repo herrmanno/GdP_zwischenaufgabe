@@ -1,0 +1,5 @@
+Compile:
+`make` oder `clang++ -Wall --std=c++17 -o main src/*.cpp``
+
+Run:
+`./main <filename> [-o out]`
