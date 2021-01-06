@@ -4,3 +4,5 @@ main
 # used for testing
 test.out
 lorem.txt
+# used for submission
+*.zip
