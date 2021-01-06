@@ -1,8 +1,8 @@
 #pragma once
 
-#include <vector>
-#include <iostream>
 #include "./wordcount.hpp"
+#include <iostream>
+#include <vector>
 
 /**
  * Pretty-prints a vector of WordCount objects to an out stream

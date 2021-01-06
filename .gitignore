@@ -1,3 +1,6 @@
 .vscode
 *.dSYM
 main
+# used for testing
+test.out
+lorem.txt

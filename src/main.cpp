@@ -16,13 +16,13 @@ int main(int argc, char** argv) {
         return 1;
     } else {
         auto s = getFileContent(*args.filename);
-        auto vs = countWords(s);
+        auto cs = countWords(s);
 
         if (args.outFilename.has_value()) {
             auto os = std::ofstream(*args.outFilename);
-            printWords(vs, os);
+            printWords(cs, os);
         } else {
-            printWords(vs, std::cout);
+            printWords(cs, std::cout);
         }
 
         return 0;

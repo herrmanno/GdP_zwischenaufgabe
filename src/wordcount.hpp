@@ -3,8 +3,6 @@
 #include <stdint.h>
 #include <string>
 #include <vector>
-#include <map>
-#include <algorithm>
 
 /**
  * A Pair of (word, number of occurrences)
